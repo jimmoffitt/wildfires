@@ -16,7 +16,7 @@ A dusted off version of SocialFlood to tell the story of how the 2017 California
 + EventViewer is based on a currated collection of Tweets.
   + Starts with curated rules by search API for based collection.
   + Collection is then curated.
-+ EventDeck is drived by Replay and a set of curated rules.
++ EventDeck is driven by Replay and a set of curated rules.
 
 ## Coding themes:
 + Moving JSON format from AS to Native enriched.
