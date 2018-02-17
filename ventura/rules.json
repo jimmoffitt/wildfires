@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "value": "(from:VCscanner OR from:CountVentura OR from:CAL_FIRE OR from:LATimes OR from:venturawaterCA OR to:venturawaterCA OR from:VCFD OR to:VCFD OR from:VCWatershed OR to:VCWatershed OR from:VenturaOES OR to:VenturaOES OR from:NWSLosAngeles OR from:countyofSB OR from:CaltransDist7) -is:retweet",
+      "tag": "official"
+    },
+    {
+      "value": "(#ThomasFire OR #CreekFire OR #RyeFire OR #SkirballFire OR #LilacFire OR #Wildfires OR ((#SantaBarbara OR #California OR #Ventura) (fire OR fires OR wildfires))) -is:retweet",
+      "tag": "hashtags"
+    },
+    {
+      "value" : "(fire (thomas OR Creek OR rye OR lilac OR Skirball) OR wildfires OR fires OR smoke OR emergency) -is:retweet -has:geo (has:media) (profile_region:California)",
+      "tag" : "profile-geo-only-media"
+    },
+    {
+      "value": "(fire (thomas OR Creek OR rye OR lilac OR Skirball) OR wildfires OR fires OR smoke OR emergency) -is:retweet has:media (bounding_box:[-119.49000 33.67000 -119.14000 33.97000] OR bounding_box:[-119.14000 33.67000 -118.79000 33.97000] OR bounding_box:[-118.79000 33.67000 -118.44000 33.97000] OR bounding_box:[-118.44000 33.67000 -118.09000 33.97000] OR bounding_box:[-118.09000 33.67000 -117.74000 33.97000] OR bounding_box:[-117.74000 33.67000 -117.39000 33.97000] OR bounding_box:[-117.39000 33.67000 -117.04000 33.97000] OR bounding_box:[-117.04000 33.67000 -116.69000 33.97000] OR bounding_box:[-116.69000 33.67000 -116.40000 33.97000] OR bounding_box:[-119.49000 33.97000 -119.07300 34.27000] OR bounding_box:[-119.07300 33.97000 -118.65600 34.27000] OR bounding_box:[-118.65600 33.97000 -118.23900 34.27000] OR bounding_box:[-118.23900 33.97000 -117.82200 34.27000] OR bounding_box:[-117.82200 33.97000 -117.40500 34.27000])",
+      "tag": "geo-media"
+    },
+    {
+      "value": "(fire (thomas OR Creek OR rye OR lilac OR Skirball) OR wildfires OR fires OR smoke OR emergency) -is:retweet has:media (bounding_box:[-118.23030 34.57000 -117.81040 34.87000] OR bounding_box:[-117.81040 34.57000 -117.39050 34.87000] OR bounding_box:[-117.39050 34.57000 -116.97060 34.87000] OR bounding_box:[-116.97060 34.57000 -116.55070 34.87000] OR bounding_box:[-116.55070 34.57000 -116.40000 34.87000] OR bounding_box:[-119.49000 34.87000 -119.06860 34.90000] OR bounding_box:[-119.06860 34.87000 -118.64720 34.90000] OR bounding_box:[-118.64720 34.87000 -118.22580 34.90000] OR bounding_box:[-118.22580 34.87000 -117.80440 34.90000] OR bounding_box:[-117.80440 34.87000 -117.38300 34.90000] OR bounding_box:[-117.38300 34.87000 -116.96160 34.90000] OR bounding_box:[-116.96160 34.87000 -116.54020 34.90000] OR bounding_box:[-116.54020 34.87000 -116.40000 34.90000])",
+      "tag": "geo-media"
+    },
+    {
+      "value": "(fire (thomas OR Creek OR rye OR lilac OR Skirball) OR wildfires OR fires OR smoke OR emergency) -is:retweet has:media (bounding_box:[-117.40500 33.97000 -116.98800 34.27000] OR bounding_box:[-116.98800 33.97000 -116.57100 34.27000] OR bounding_box:[-116.57100 33.97000 -116.40000 34.27000] OR bounding_box:[-119.49000 34.27000 -119.07160 34.57000] OR bounding_box:[-119.07160 34.27000 -118.65320 34.57000] OR bounding_box:[-118.65320 34.27000 -118.23480 34.57000] OR bounding_box:[-118.23480 34.27000 -117.81640 34.57000] OR bounding_box:[-117.81640 34.27000 -117.39800 34.57000] OR bounding_box:[-117.39800 34.27000 -116.97960 34.57000] OR bounding_box:[-116.97960 34.27000 -116.56120 34.57000] OR bounding_box:[-116.56120 34.27000 -116.40000 34.57000] OR bounding_box:[-119.49000 34.57000 -119.07010 34.87000] OR bounding_box:[-119.07010 34.57000 -118.65020 34.87000] OR bounding_box:[-118.65020 34.57000 -118.23030 34.87000])",
+      "tag": "geo-media"
+    }
+  ]
+}
