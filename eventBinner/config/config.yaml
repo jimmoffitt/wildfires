@@ -1,0 +1,29 @@
+event_viewer:
+  include_twitter_data: true
+  include_hashtag_stats: true
+
+event_details:
+  start_date: 2017-12-04 07:00:00
+  end_date: 2017-12-11 07:00:00
+  interval: 60 #minutes
+
+  #Profile Geo parameters.
+  profile_region: California
+  profile_west: -119.49
+  profile_east: -116.4
+  profile_south: 33.67
+  profile_north: 34.9
+ 
+  #Tweet Geo parameters.
+  tweet_west: -119.49
+  tweet_east: -116.4
+  tweet_south: 33.67
+  tweet_north: 34.9
+
+database:
+  type: mysql
+  host: 127.0.0.1
+  port: 3306
+  schema: wildfires 
+  user_name: 
+  password: 
