@@ -11,6 +11,12 @@ A dusted off version of SocialFlood to tell the story of how the 2017 California
   + Tweets from 'official' sources. Not all official sources are Verified.
   + Native and linked media with country/regional/local Profile Geo of interest.
   + VIT Tweets. Curated collection that 'adds' to story.
+  
+## Demo themes:  
++ EventViewer is based on a currated collection of Tweets.
+  + Starts with curated rules by search API for based collection.
+  + Collection is then curated.
++ EventDeck is drived by Replay and a set of curated rules.
 
 ## Coding themes:
 + Moving JSON format from AS to Native enriched.
